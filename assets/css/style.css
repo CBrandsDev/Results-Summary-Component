@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+    height: 100%;
+    width: 100%;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+.card1 {
+    background: rgb(46,43,233);
+    background: linear-gradient(0deg, rgba(46,43,233,1) 0%, rgba(120,87,255,1) 100%);
+    color: white;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.card1 h3 {
+    padding: 25px;
+    font-weight: 800;
+    color: hsl(241, 100%, 89%);
+}
+.result {
+    text-align: center;
+    padding: 30px;
+    margin: 0px 200px 0px 200px;
+    background: rgb(36,33,202);
+    background: linear-gradient(0deg, rgba(36,33,202,1) 0%, rgba(78,33,202,1) 60%);
+    border-radius: 500px;
+}
+.result p {
+    display: flex;
+    font-weight: 500;
+    font-size: 12px;
+    color: hsl(241, 100%, 89%);
+}
+.result h1 {
+    font-weight: 800;
+    font-size: 50px;
+}
+.card1 h2 {
+    padding: 20px;
+    font-weight: 800;
+    font-size: 26px;
+}
+.card1 p {
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    color: hsl(241, 100%, 89%);
+    text-align: center;
+    width: 95%;
+    margin-right: 0;
+}
