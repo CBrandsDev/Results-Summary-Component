@@ -1,6 +1,6 @@
-# Frontend Mentor - Intro component with sign up form
+# Frontend Mentor - Results summary component
 
-This is a solution to the [Intro component with sign up form](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Results summary component](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV/hub). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -21,20 +21,19 @@ Users should be able to:
 
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
-- Interactive function applied together with javascript
 
 ### Screenshot
 
-![](./design/screenshot1.png)
-![](./design/screenshot2.png)
-![](./design/screenshot3.png)
+![](./design/screenshot.png)
+![](./design/screenshotmobile.png)
+
 
 
 
 ### Links
 
-- Solution URL: [Click Here](https://www.frontendmentor.io/solutions/intro-component-with-sign-up-form-IlBOhuS5sf)
-- Live Site URL: [Click Here](https://cbrandsdev.github.io/Intro-Component-With-Signup-Form-Master)
+- Solution URL: [Click Here](https://www.frontendmentor.io/solutions/results-summary-component-zPzcwxfMNN)
+- Live Site URL: [Click Here](https://cbrandsdev.github.io/Results-Summary-Component)
 
 ## My process
 
@@ -44,14 +43,12 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Javascript
 
 
 ### What I learned
 
 In this challenge I managed to understand how the interactive elements work using hover in the css, I also managed to implement some shadows in the layout of the information box, which makes a good impression at first glance. 
 I used media settings to set different settings for different mobile devices.
-I also implemented the function of assigning interactive buttons in javascript to demonstrate the chosen evaluation on the site.
 
 ```css
 .card {
@@ -108,25 +105,6 @@ I also implemented the function of assigning interactive buttons in javascript t
     .attribution {
         margin-top: 420px;
     }
-```
-```js
-function setError (index){
-    fields[index].style.border = '3px solid hsl(0, 100%, 74%)';
-    errors[index].style.display = 'flex';
-}
-function removeError(index){
-    fields[index].style.border = "";
-    errors[index].style.display = "none";
-}
-
-function nameValidate() {
-    if(fields[0].value.length == 0) {
-      setError(0);
-    }
-    else {
-        removeError(0);
-    }
-}
 ```
 
 
