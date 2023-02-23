@@ -33,7 +33,7 @@ main {
     justify-content: center;
     text-align: center;
     max-width: 330px;
-    height: 440px;
+    height: 465px;
     overflow: hidden;
 }
 .card1 h3 {
@@ -42,21 +42,25 @@ main {
     color: hsl(241, 100%, 89%);
 }
 .result {
-    padding: 30px;
-    margin: 0px 90px 0px 90px;
+    padding: 45px;
+    margin: 0px 80px 0px 80px;
     background: rgb(36,33,202);
     background: linear-gradient(0deg, rgba(36,33,202,1) 0%, rgba(78,33,202,1) 60%);
     border-radius: 100px;
-    max-height: 180px;
+    height: 180px;
+    width: 180px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 .result h7 {
     font-size: 12px;
     font-weight: 500;
-    color: hsl(241, 100%, 89%);
+    color: hsl(241, 100%, 89%, .7);
 }
 .result h1 {
     font-weight: 800;
-    font-size: 50px;
+    font-size: 60px;
 }
 .card1 h2 {
     padding: 20px;
@@ -67,7 +71,7 @@ main {
     align-items: center;
     justify-content: center;
     padding: 0px 55px 40px 55px;
-    color: hsl(241, 100%, 89%);
+    color: hsl(241, 100%, 89%, .7);
     text-align: center;
 }
 .card2 {
@@ -76,7 +80,7 @@ main {
     text-align: left;
     padding: 50px;
     display: grid;
-    gap: 30px;
+    gap: 15px;
 }
 .card2 p {
     display: flex;
@@ -85,8 +89,8 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 60px;
-    padding: 8px;
+    gap: 50px;
+    padding: 15px;
 }
 .sumary img {
     justify-content: center;
@@ -94,8 +98,57 @@ main {
     padding-right: 20px;
 }
 .reaction {
-    color: hsl(0, 100%, 67%);
-    background-color: black;
-    
+    background-color: hsla(0, 100%, 67%, 0.1);
+    border-radius: 10px;
+}
+.name1 {
+    color: hsla(0, 100%, 67%);
+    font-weight: 800;
+}
+.memory {
+    background-color: hsl(39, 100%, 56%, 0.1);
+    border-radius: 10px;
+}
+.name2 {
+    color: hsl(39, 100%, 56%);
+    font-weight: 800;
+}
+.verbal {
+    background-color: hsl(166, 100%, 37%, 0.1);
+    border-radius: 10px;
+}
+.name3 {
+    color: hsl(166, 100%, 37%);
+    font-weight: 800;
+}
+.visual {
+    background-color: hsl(234, 85%, 45%, 0.1);
+}
+.name4 {
+    color: hsl(234, 85%, 45%);
+    font-weight: 800;
+}
+button {
+    border: none;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    border-radius: 30px;
+    padding: 15px;
+    margin-top: 15px;
+}
+button:hover {
+    cursor: pointer;
+    background: rgb(46,43,233);
+    background: linear-gradient(0deg, rgba(46,43,233,1) 0%, rgba(120,87,255,1) 100%);
+}
+.attribution {
+    padding: 50px;
+} @media screen and (max-width: 660px){
+    .container {
+        display: grid;
+    }
+    .card1 {
+        min-width: 345px;
+    }
 }
 
